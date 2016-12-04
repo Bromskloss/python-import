@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+DIR="$(readlink -f "${BASH_SOURCE%/*}")"
+cd "${DIR}"/..
+python3 -m app.app
